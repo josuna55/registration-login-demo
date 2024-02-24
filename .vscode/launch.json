@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RegistrationLoginDemoApplication<registration-login-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.guides.springboot.registrationlogindemo.RegistrationLoginDemoApplication",
+            "projectName": "registration-login-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
