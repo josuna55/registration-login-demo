@@ -44,4 +44,9 @@ public class User implements java.io.Serializable
         inverseJoinColumns = @JoinColumn(
             name = "ROLE_ID", referencedColumnName = "ID"))
     private List<Role> roles = new ArrayList<>();
+
+    public void setRole(List<Role> asList) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'setRole'");
+    }
 }
